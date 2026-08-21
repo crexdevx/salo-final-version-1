@@ -20,9 +20,9 @@ export function Hero() {
           src={heroArt}
           srcSet={`${heroArtSmall} 746w, ${heroArt} 1445w`}
           sizes="(max-width: 640px) 68vw, (max-width: 1024px) 58vw, 52vw"
-          alt="Illustrated portrait of a stylish man and woman at A4 Unisex Salon Nalbari, showcasing modern unisex haircuts and grooming"
+          alt="Portrait of a stylish man and woman at A4 Unisex Salon Nalbari, showcasing modern unisex haircuts and grooming"
           width={1445}
-          height={1088}
+          height={814}
           fetchPriority="high"
           decoding="async"
           className="h-full w-full animate-fade-in object-contain object-center"
